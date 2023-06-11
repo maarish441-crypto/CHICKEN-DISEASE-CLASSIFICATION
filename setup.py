@@ -10,7 +10,6 @@ REPO_NAME = "Chicken-Disease-Classification-Project"
 AUTHOR_USER_NAME = "maarish441-crypto"
 SRC_REPO = "cnnClassifier"
 AUTHOR_EMAIL = "maarish441@gmail.com"
-author = "Your Name"
 
 
 
@@ -20,13 +19,13 @@ setuptools.setup(
     author = AUTHOR_USER_NAME,
     author_email = AUTHOR_EMAIL,
     description = "a small python package for cnn",
-    Long_description = long_description,
-    Long_description_content = "text/markdown",
+    long_description = long_description,
+    long_description_content = "text/markdown",
     urls = f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
         "Bug Tracker":f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues"
 
     },
     package_dir = {"": "src"},
-    packages = setuptools.find_packages(where = "src")
+    packages = setuptools.find_packages(where="src")
 )
